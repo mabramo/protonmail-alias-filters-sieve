@@ -1,0 +1,51 @@
+require ["fileinto", "regex"];
+if anyof (
+  address :is "to" "testalias3@newdomain.com",
+  address :is "to" "yetanotheralias@examplemail.com",
+  address :is "to" "testingalias@examplemail.com"
+) {
+  fileinto "Something Else";
+}
+
+if anyof (
+  address :is "to" "testalias2@newdomain.com",
+  address :is "to" "newalias456@examplemail.com",
+  address :is "to" "workalias456@examplemail.com",
+  address :is "to" "duplicatealias1@examplemail.com",
+  address :is "to" "duplicatealias2@examplemail.com"
+) {
+  fileinto "Work";
+}
+
+if anyof (
+  address :is "to" "testalias1@newdomain.com",
+  address :is "to" "newalias123@examplemail.com",
+  address :is "to" "testalias.other123@examplemail.com",
+  address :is "to" "anotheralias1@examplemail.com",
+  address :is "to" "anotheralias2@examplemail.com",
+  address :is "to" "newtestalias@examplemail.com",
+  address :is "to" "testaliasduplicate@examplemail.com"
+) {
+  fileinto "Personal";
+}
+
+if anyof (
+  address :is "to" "testalias4@newdomain.com",
+  address :is "to" "newalias789@examplemail.com"
+) {
+  fileinto "Work2";
+}
+
+if anyof (
+  address :is "to" "alias123test@examplemail.com",
+  address :is "to" "specialalias@examplemail.com"
+) {
+  fileinto "Work3";
+}
+
+if anyof (
+  address :is "to" "alias456test@examplemail.com",
+  address :is "to" "aliasvariant@examplemail.com"
+) {
+  fileinto "Work4";
+}

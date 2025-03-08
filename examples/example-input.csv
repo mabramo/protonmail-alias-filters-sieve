@@ -1,0 +1,21 @@
+alias,TEST ALIAS,,testalias1@newdomain.com,,,Used on newdomain.com,,2141503115,2141503115,Personal
+alias,TEST ALIAS WORK,,testalias2@newdomain.com,,,Used on newdomain.com,,2141503158,2141503158,Work
+alias,TEST ALIAS WORK,,testalias3@newdomain.com,,,Used on newdomain.com,,2141503158,2141503158,Something Else
+alias,TEST ALIAS WORK,,testalias4@newdomain.com,,,Used on newdomain.com,,2141503158,2141503158,Work2
+alias,NEW ALIAS,,newalias123@examplemail.com,,,Used on dummyaccount2.com,,2141503189,2141503189,Personal
+alias,TEST ALIAS,,testalias.other123@examplemail.com,,,Used on dummyaccount.com,,2141503221,2141503221,Personal
+alias,NEW ALIAS,,newalias456@examplemail.com,,,Used on dummyaccount2.com,,2141503254,2141503254,Work
+alias,NEW ALIAS,,newalias789@examplemail.com,,,Used on dummyaccount2.com,,2141503289,2141503289,Work2
+alias,WORK ALIAS,,workalias456@examplemail.com,,,Used on workdomain.com,,2141503312,2141503312,Work
+alias,ALIAS TEST,,alias123test@examplemail.com,,,Used on example.com,,2141503345,2141503345,Work3
+alias,ALIAS TEST,,alias456test@examplemail.com,,,Used on example.com,,2141503378,2141503378,Work4
+alias,ANOTHER ALIAS,,anotheralias1@examplemail.com,,,Used on example.com,,2141503401,2141503401,Personal
+alias,ANOTHER ALIAS,,anotheralias2@examplemail.com,,,Used on example.com,,2141503434,2141503434,Personal
+alias,YET ANOTHER ALIAS,,yetanotheralias@examplemail.com,,,Used on example.com,,2141503467,2141503467,Something Else
+alias,DUPLICATE ALIAS,,duplicatealias1@examplemail.com,,,Used on example.com,,2141503500,2141503500,Work
+alias,DUPLICATE ALIAS,,duplicatealias2@examplemail.com,,,Used on example.com,,2141503533,2141503533,Work
+alias,NEW TEST ALIAS,,newtestalias@examplemail.com,,,Used on testdomain.com,,2141503566,2141503566,Personal
+alias,SPECIAL ALIAS,,specialalias@examplemail.com,,,Used on testdomain.com,,2141503599,2141503599,Work3
+alias,TESTING ALIAS,,testingalias@examplemail.com,,,Used on testdomain.com,,2141503632,2141503632,Something Else
+alias,ALIAS VARIANT,,aliasvariant@examplemail.com,,,Used on testdomain.com,,2141503665,2141503665,Work4
+alias,TEST ALIAS,,testaliasduplicate@examplemail.com,,,Used on dummyaccount.com,,2141503698,2141503698,Personal
