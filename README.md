@@ -31,7 +31,7 @@ Well, you'll have to do that manually as well.
 
 ProtonMail supports [sieve filters](https://proton.me/support/sieve-advanced-custom-filters)
 
-With sieve filters, we can provide a list of email aliases and map them to a folder name. The filter will automatically move emails sent to the alias address to the mapped folder.
+With sieve filters, we can provide a list of email aliases and map them to a folder name that is based on the ProtonPass vault name. The filter will automatically move emails sent to the alias address to a folder with the same name as the vault the alias address is stored in.
 See `examples/example-output.out`
 
 You could update the sieve file totally by hand every time you create or destroy an alias.
